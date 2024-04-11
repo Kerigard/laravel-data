@@ -1,0 +1,42 @@
+{
+    "name": "kerigard/laravel-data",
+    "description": "Fill the database with required data",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vladislav Sidelnikov",
+            "email": "kerihoros@gmail.com"
+        }
+    ],
+    "homepage": "https://github.com/kerigard/laravel-data",
+    "keywords": [
+        "laravel"
+    ],
+    "require": {
+        "php": "^8.0.2",
+        "laravel/framework": "^9.0|^10.0|^11.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0|^10.0|^11.0",
+        "orchestra/testbench": "^7.0|^8.0|^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kerigard\\LaravelData\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kerigard\\LaravelData\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kerigard\\LaravelData\\DataServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
