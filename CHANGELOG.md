@@ -1,5 +1,11 @@
 # Release Notes
 
+## v1.0.2 - 2025-02-12
+
+### Added
+
+- Laravel 12 support
+
 ## v1.0.1 - 2024-05-05
 
 ### Changed
